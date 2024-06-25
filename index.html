@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Roulette</title>
+    <style>
+        .pixelated {
+            font-family: 'Press Start 2P', cursive;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <div class="grid grid-cols-3 gap-4 p-4" >
+        <!-- First Column -->
+        <div class="flex justify-center items-center" id="Cowboy1">
+            <img src="./images/Cowboy.png" alt="Image 1" class="w-1/2">
+        </div>
+
+        <!-- Second Column -->
+        <div class="flex justify-center items-center" id="Revolver">
+            <img src="./images/Revolver.png" alt="Image 2" class="w-1/2" id="revolverImage">
+        </div>
+
+        <!-- Third Column -->
+        <div class="flex justify-center items-center" id="Cowboy2">
+            <img src="./images/Cowboy.png" alt="Image 4" class="w-1/2">
+        </div>
+
+
+
+    </div>
+    
+    <div class="flex justify-center items-center ">
+        <button id="shootbtn"  class="flex justify-center items-center  p-2 pr-16">
+            <img src="./images/shoot.png" alt="Image 4" class="w-1/4">
+        </button>
+    </div>
+    <script src="./JS/script.js"></script>
+
+</body>
+
+</html>
