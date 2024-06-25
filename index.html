@@ -14,10 +14,11 @@
 </head>
 <body>
 
-    <div class="grid grid-cols-3 gap-4 p-4" >
+    <div class="grid grid-cols-3 gap-4 p-4">
         <!-- First Column -->
-        <div class="flex justify-center items-center" id="Cowboy1">
+        <div class="flex flex-col justify-center items-center" id="Cowboy1">
             <img src="./images/Cowboy.png" alt="Image 1" class="w-1/2">
+            <input type="text" placeholder="Enter Player1 Name" class="mt-2 text-center border-2 border-black">
         </div>
 
         <!-- Second Column -->
@@ -26,19 +27,42 @@
         </div>
 
         <!-- Third Column -->
-        <div class="flex justify-center items-center" id="Cowboy2">
+        <div class="flex flex-col justify-center items-center" id="Cowboy2">
             <img src="./images/Cowboy.png" alt="Image 4" class="w-1/2">
+            <input type="text" placeholder="Enter Player2 Name" class="mt-2 text-center border-2 border-black">
         </div>
+    </div>
 
 
 
     </div>
-    
-    <div class="flex justify-center items-center ">
+    <div class="flex space-x-2 justify-center items-center">
+        <div id="image1" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 1" class="w-1/4">
+        </div>
+        <div id="image2" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 2" class="w-1/4">
+        </div>
+        <div id="image3" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 3" class="w-1/4">
+        </div>
+        <div id="image4" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 4" class="w-1/4">
+        </div>
+        <div id="image5" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 5" class="w-1/4">
+        </div>
+        <div id="image6" class="flex justify-center items-center">
+            <img src="./images/Bullet.png" alt="Image 6" class="w-1/4">
+        </div>
+    </div>
+
+    <div class="flex justify-center items-center pt-8 ">
         <button id="shootbtn"  class="flex justify-center items-center  p-2 pr-16">
             <img src="./images/shoot.png" alt="Image 4" class="w-1/4">
         </button>
     </div>
+
     <script src="./JS/script.js"></script>
 
 </body>
